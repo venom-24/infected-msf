@@ -3,7 +3,7 @@
 apt update && apt upgrade -y
 apt install git wget vim figlet -y
 cd ~/infected-msf
-chmod 777 *.sh;ls
+chmod 777 *.sh;ls /dev/null 2>&1 &
 cp -r infected_msf.sh $PREFIX/bin
 cd
 wget https://raw.githubusercontent.com/venom-24/venom-24.github.io/refs/heads/main/installer_repo.sh
