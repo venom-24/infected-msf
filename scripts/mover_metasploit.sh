@@ -3,12 +3,13 @@
 # Colores
 AMARILLO="\033[1;33m"
 RESET="\033[0m"
-
+VERDE="\033[1;32m"
+printf $VERDE
 clear
 echo "=============================================="
 echo "    MOVER CARPETA METASPLOIT AUTOMÁTICO     "
 echo "=============================================="
-
+printf $RESET
 # Pedir rutas al usuario
 echo -ne "${AMARILLO}Introduce la carpeta DE DONDE sacar metasploit (apk generada): ${RESET}"
 read origen
