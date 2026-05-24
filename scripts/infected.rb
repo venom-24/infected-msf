@@ -45,7 +45,6 @@ def inject_smali(file_path)
   if inyectado
     File.write(file_path, nuevo_archivo.join)
     puts "[+] ✅ INYECCIÓN EXITOSA"
-    puts "[✔] .locals ORIGINAL RESPETADO"
   else
     puts "[-] No se pudo inyectar (¿Ya estaba?)"
   end
