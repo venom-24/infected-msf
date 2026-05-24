@@ -11,10 +11,10 @@ echo "    MOVER CARPETA METASPLOIT AUTOMÁTICO     "
 echo "=============================================="
 printf $RESET
 # Pedir rutas al usuario
-echo -ne "${AMARILLO}Introduce la carpeta DE DONDE sacar metasploit (apk generada): ${RESET}"
+echo -ne "${AMARILLO}Introduce el nombre de la carpeta de la apk generada por metasploit ${RESET}"
 read origen
 
-echo -ne "${AMARILLO}Introduce la carpeta DONDE va la app objetivo (ej: fighter): ${RESET}"
+echo -ne "${AMARILLO}Introduce el nombre de la carpeta de la apk original (ej: fighter): ${RESET}"
 read destino
 
 # Rutas completas
