@@ -53,7 +53,7 @@ end
 
 # --- PASO 1: ENCONTRAR RUTA EXACTA ---
 # ✨ AQUÍ USAMOS EL COLOR EN LA PREGUNTA
-print "#{AMARILLO}Introduce la ruta de la carpeta del proyecto (ej: contra): #{RESET}"
+print "#{AMARILLO}Introduce el nombre de la carpeta del proyecto (ej: contra): #{RESET}"
 folder_name = gets.chomp
 manifest_path = "#{folder_name}/AndroidManifest.xml"
 
