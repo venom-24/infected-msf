@@ -13,5 +13,8 @@ bash installer_repo.sh
 
 apt install apktool zipalign -y 
 sleep 2
-bash infected_msf.sh
 
+
+sleep 2
+cd ~/infected-msf/scripts
+bash infected_msf.sh
