@@ -42,7 +42,7 @@ elif [ $opcion -eq 2 ]; then
     # El comando 'b' compila la carpeta de nuevo a APK
     apktool b "$carpeta" -o "$carpeta2"
     printf $green
-    echo "Proceso de compilación finalizado. apk lista en infected-msf $carpeta."
+    echo "Proceso de compilación finalizado. apk lista en infected-msf/scripts"
 
 else
 	printf $red
